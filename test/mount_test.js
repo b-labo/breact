@@ -20,13 +20,7 @@ describe('mount', function () {
   }))
 
   it('Mount', () => co(function * () {
-    let caught
-    try {
-      yield mount(null)
-    } catch (err) {
-      caught = err
-    }
-    assert.ok(!!caught)
+
   }))
 })
 

@@ -85,6 +85,7 @@ once('DOMContentLoaded', () => {
     // The component is ready.
   })
 })
+
 ```
 
 
@@ -128,6 +129,8 @@ This software is released under the [MIT License](https://github.com/b-labo/brea
 Links
 ------
 
++ [bwindow][bwindow_url]
 
+[bwindow_url]: https://github.com/b-labo/bwindow#readme
 
 <!-- Links End -->
