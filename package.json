@@ -1,14 +1,18 @@
 {
   "name": "breact",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Browser react utility",
   "main": "lib",
   "scripts": {
     "test": "./ci/test.js",
-    "prepublish": "./ci/build.js"
+    "prepublish": "./ci/build.js && ./ci/browser.js"
   },
+  "browser": "sims/browser",
   "repository": "b-labo/breact",
-  "keywords": [],
+  "keywords": [
+    "browser",
+    "React.js"
+  ],
   "author": {
     "name": "Taka Okunishi",
     "email": "okunishitaka.com@gmail.com",
