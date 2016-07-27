@@ -1,6 +1,6 @@
 {
   "name": "breact",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Browser react utility",
   "main": "lib",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/b-labo/breact#readme",
   "dependencies": {
-    "bwindow": "^1.0.5",
+    "bwindow": "^1.0.6",
     "co": "^4.6.0"
   },
   "devDependencies": {
