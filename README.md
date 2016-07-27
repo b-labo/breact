@@ -103,7 +103,7 @@ Available functions
 | Signature | Description |
 | ---- | ----------- |
 | `create(Component, props) -> Object` | Create an element |
-| `markup(Component, props, children)` |  |
+| `markup(Component, props, children) -> string` | Create static markup |
 | `mount(container, element) -> Promise` | Mount an element into dom |
 | `once(event, handler)` | Bind window event once |
 

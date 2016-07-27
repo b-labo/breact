@@ -5,10 +5,9 @@
 'use strict'
 
 const { readmeMdBud } = require('ape-tmpl')
-const {commentsInFile} = require('ape-doc')
+const { commentsInFile } = require('ape-doc')
 const aglob = require('aglob')
 const pkg = require('./package.json')
-
 
 module.exports = readmeMdBud({
   pkg,
