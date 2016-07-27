@@ -1,14 +1,14 @@
 /**
- * Test case for create.
+ * Test case for markup.
  * Runs with mocha.
  */
 'use strict'
 
-const create = require('../lib/create.js')
+const markup = require('../lib/markup.js')
 const assert = require('assert')
 const co = require('co')
 
-describe('create', function () {
+describe('markup', function () {
   this.timeout(3000)
 
   before(() => co(function * () {
@@ -19,9 +19,8 @@ describe('create', function () {
 
   }))
 
-  it('Create', () => co(function * () {
-    let created = create('div', {})
-    assert.ok(created)
+  it('Markup', () => co(function * () {
+
   }))
 })
 
