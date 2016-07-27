@@ -28,10 +28,10 @@
     "co": "^4.6.0"
   },
   "devDependencies": {
-    "ababel": "^1.0.19",
-    "ababel-es2015": "^1.0.2",
+    "ababel": "^1.0.22",
+    "ababel-es2015": "^1.0.3",
     "aglob": "^1.0.1",
-    "amocha": "^1.0.8",
+    "amocha": "^1.0.9",
     "ape-covering": "^3.0.4",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
@@ -45,6 +45,10 @@
     "injectmock": "^2.0.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1"
+  },
+  "peerDependencies": {
+    "react": ">=15",
+    "react-dom": ">=15"
   },
   "engines": {
     "node": ">=6",

@@ -103,6 +103,7 @@ Available functions
 | Signature | Description |
 | ---- | ----------- |
 | `create(Component, props) -> Object` | Create an element |
+| `markup(Component, props, children)` |  |
 | `mount(container, element) -> Promise` | Mount an element into dom |
 | `once(event, handler)` | Bind window event once |
 
@@ -129,8 +130,10 @@ This software is released under the [MIT License](https://github.com/b-labo/brea
 Links
 ------
 
++ [b-labo][b_labo_url]
 + [bwindow][bwindow_url]
 
+[b_labo_url]: https://github.com/b-labo
 [bwindow_url]: https://github.com/b-labo/bwindow#readme
 
 <!-- Links End -->
