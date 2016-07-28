@@ -1,6 +1,6 @@
 {
   "name": "breact",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Browser react utility",
   "main": "lib",
   "scripts": {
@@ -28,8 +28,8 @@
     "co": "^4.6.0"
   },
   "devDependencies": {
-    "ababel": "^1.0.22",
-    "ababel-es2015": "^1.0.3",
+    "ababel": "^1.0.25",
+    "ababel-es2015": "^1.0.5",
     "aglob": "^1.0.1",
     "amocha": "^1.0.9",
     "ape-covering": "^3.0.4",
