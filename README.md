@@ -106,6 +106,7 @@ Available functions
 | `markup(Component, props, children) -> string` | Create static markup |
 | `mount(container, element) -> Promise` | Mount an element into dom |
 | `once(event, handler)` | Bind window event once |
+| `wrap(Base, spec)` | Wrap a element with higher order component |
 
 
 <!-- Section from "doc/guides/03.Functions.md.hbs" End -->
