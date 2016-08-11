@@ -39,13 +39,13 @@ describe('wrap', function () {
         bar () {
           return 'This is bar'
         }
-      },
-      render () {
-        return React.createElement(Base)
       }
     })
-    let elm = React.createElement(Wrapped, {})
+    let elm = React.createElement(Wrapped, {
+      id: 'the-testing-class'
+    })
     assert.ok(elm)
+    assert.equal(elm.props.id, 'the-testing-class')
     assert.ok(Wrapped.foo())
     assert.ok(Wrapped.propTypes.hoge)
   }))
