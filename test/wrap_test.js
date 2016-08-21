@@ -47,7 +47,6 @@ describe('wrap', function () {
     assert.ok(elm)
     assert.equal(elm.props.id, 'the-testing-class')
     assert.ok(Wrapped.foo())
-    assert.ok(Wrapped.propTypes.hoge)
   }))
 })
 

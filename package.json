@@ -1,6 +1,6 @@
 {
   "name": "breact",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Browser react utility",
   "main": "lib",
   "scripts": {
@@ -24,15 +24,15 @@
   },
   "homepage": "https://github.com/b-labo/breact#readme",
   "dependencies": {
-    "asobj": "^1.0.0",
+    "asobj": "^1.1.0",
     "bwindow": "^1.0.7",
     "co": "^4.6.0"
   },
   "devDependencies": {
-    "ababel": "^1.0.25",
-    "ababel-es2015": "^1.0.5",
-    "aglob": "^1.0.2",
-    "amocha": "^1.0.13",
+    "ababel": "*",
+    "ababel-es2015": "*",
+    "aglob": "*",
+    "amocha": "*",
     "ape-covering": "^3.0.4",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
@@ -44,8 +44,8 @@
     "ape-updating": "^4.0.5",
     "coz": "^6.0.17",
     "injectmock": "^2.0.0",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react": "*",
+    "react-dom": "*"
   },
   "peerDependencies": {
     "react": ">=15",
