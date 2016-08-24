@@ -102,7 +102,7 @@ Available functions
 
 | Signature | Description |
 | ---- | ----------- |
-| `autobind() -> ` |  |
+| `autobind(context) -> ` | Auto bind methods |
 | `create(Component, props, children) -> Object` | Create an element |
 | `markup(Component, props, children) -> string` | Create static markup |
 | `mount(container, element) -> Promise` | Mount an element into dom |
