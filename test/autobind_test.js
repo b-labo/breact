@@ -37,6 +37,13 @@ describe('autobind', function () {
     }
     let foo = new Foo()
     assert.equal(foo.sayYo(), 'yo!')
+    {
+      class FooWrap extends Foo {
+
+      }
+      let { sayYo } = new FooWrap({})
+      assert.equal(sayYo(), 'yo!')
+    }
   }))
 })
 
