@@ -5,7 +5,7 @@
   "main": "lib",
   "scripts": {
     "test": "./ci/test.js",
-    "prepublish": "./ci/build.js && ./ci/browser.js"
+    "prepare": "./ci/build.js && ./ci/shim.js"
   },
   "browser": "shim/browser",
   "repository": "b-labo/breact",
@@ -24,27 +24,27 @@
   },
   "homepage": "https://github.com/b-labo/breact#readme",
   "dependencies": {
-    "asobj": "^1.1.0",
+    "asobj": "^1.5.0",
     "bwindow": "^1.0.7",
     "co": "^4.6.0",
     "react-autobind": "^1.0.6"
   },
   "devDependencies": {
-    "ababel": "^1.1.12",
-    "ababel-es2015": "^1.0.8",
-    "aglob": "^1.0.3",
-    "amocha": "^1.0.15",
+    "ababel": "^2.0.1",
+    "ababel-es2015": "^2.0.1",
+    "aglob": "^2.0.1",
+    "amocha": "^2.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
     "ape-tmpl": "^5.0.15",
-    "ape-updating": "^4.0.5",
+    "ape-updating": "^4.1.0",
     "coz": "^6.0.17",
     "injectmock": "^2.0.0",
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1"
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "peerDependencies": {
     "react": ">=15",
@@ -52,6 +52,6 @@
   },
   "engines": {
     "node": ">=6",
-    "npm": ">=3"
+    "npm": ">=4"
   }
 }
